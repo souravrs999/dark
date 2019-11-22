@@ -4,7 +4,7 @@ import smtplib
 from bs4 import BeautifulSoup
 from twilio.rest import Client
 
-URL ='https://www.amazon.in/Corsair-Vengeance-2400MHz-Chipset-CMK8GX4M1A2400C16R/dp/B01ARHCZYO/ref=sr_1_2?keywords=ram&qid=1574424140&sr=8-2'
+URL ='your urls'
 
 headers = {"User-Agent": 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'}
 
@@ -17,15 +17,15 @@ def send_mail():
 		server.starttls()
 		server.ehlo()
 
-		server.login('souravraveendran6@gmail.com','ldcrwhqbiidngurw')
+		server.login('mail id','app password')
 
 		subject = 'price fell'
-		body = 'check the amazon link https://www.amazon.in/Corsair-Vengeance-2400MHz-Chipset-CMK8GX4M1A2400C16R/dp/B01ARHCZYO/ref=sr_1_2?keywords=ram&qid=1574424140&sr=8-2'
+		body = 'check the amazon link https://www.amazon.in/product link'
 
 		msg = f'subject:{subject}\n\n{body}'
 		server.sendmail(
-				'souravraveendran6@gmail.com',
-				'souravraveendran6@outlook.com',
+				'mail ids',
+				'mail ids',
 				msg
 			)
 		print('email has been sent')
@@ -36,10 +36,10 @@ def send_mail():
 
 def send_sms():
 	subject = 'price fell'
-	body = 'check the amazon link https://www.amazon.in/Corsair-Vengeance-2400MHz-Chipset-CMK8GX4M1A2400C16R/dp/B01ARHCZYO/ref=sr_1_2?keywords=ram&qid=1574424140&sr=8-2'
-	client = Client('AC1fae1febf0737f1e7aff62e4c7038b89','5af491750b91a756c19d2e442c4ae301')
-	client.messages.create(to='+919567611892',
-						from_ ='+13609723252',
+	body = 'check the amazon link https://www.amazon.in/product link'
+	client = Client('acc_no','password')
+	client.messages.create(to='number',
+						from_ ='twilio number',
 						body = f'subject:{subject}\n\n{body}' )
 
 # This function looks up the products price in amazon
@@ -60,7 +60,7 @@ def check_price():
 	print(price)
 	print(converted_price)
 
-	if (converted_price < 2500):
+	if (converted_price < 2500)#change the price:
 		send_mail()
 		send_sms()
 
