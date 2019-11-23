@@ -2,3 +2,4 @@ requests
 smtplib
 BeautifulSoup
 twilio
+playsound #unnecessary
