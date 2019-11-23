@@ -1,7 +1,7 @@
 import requests
-import os
+#import os
 from twilio.rest import Client
-from playsound import playsound
+#from playsound import playsound
 
 # def  music():
 # 	os.system('start/MIN vlc "C:\\Users\\SOURAV R S\\Documents\\proj\\Pacific Rim OST Soundtrack - 01 -  MAIN THEME by Ramin Djawadi.mp3" --new-window/min')
@@ -17,8 +17,8 @@ def call_spam():
 
 # music()
 
-# while True:
+ while True:
 
-if __name__ == '__main__':
-	print('spamming......')
-	call_spam()
+	if __name__ == '__main__':
+		print('spamming......')
+		call_spam()
