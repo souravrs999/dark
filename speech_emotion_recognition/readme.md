@@ -1,6 +1,4 @@
-<snippet>
-  <content><![CDATA[
-# 1:SPEECH EMOTION RECOGNITION
+# SPEECH EMOTION RECOGNITION
 
 This is a tool built for recognising emotions from speech using different ML and DL algorithms, But mainly focuses on LSTM(Long Short Term Memory) and CNN (Convolutional Neural Network) for predictions
 
@@ -97,6 +95,3 @@ https://github.com/x4nth055/emotion-recognition-using-speech
 ## License
 
 <a href="https://choosealicense.com/licenses/mit/">MIT</a>
-]]></content>
-<tabTrigger>readme</tabTrigger>
-</snippet>
