@@ -79,7 +79,7 @@ path for the script can be changed inside the main.py script
 Mainly 6 methods have been used to classify the data<br>
 [1]Random Forest Classifier<br><img src="https://d1rwhvwstyk9gu.cloudfront.net/2019/03/Random-Forest-Algorithm.jpg" height=60 width =60></img><br>
 [2]Decision Tree Classifier<br><img src="https://www.all-ppt-templates.com/images/powerpoint-decision-tree-005.jpg" height=60 width =60></img><br>
-[3]Support Vector Machine<br><img src="https://cdn-images-1.medium.com/max/1600/1*Hz76FfcofSRNPLJUZR6YKg.gif" height=60 width =60></img><br>
+[3]Support Vector Machine<br><img src="https://randomforests.files.wordpress.com/2014/01/n150_svm.png" height=60 width =60></img><br>
 [4]Multi Layer Perceptron<br><img src="http://scikit-learn.org/dev/_images/multilayerperceptron_network.png" height=60 width =60></img><br>
 [5]Long Short-term Memory<br><img src="http://www.mdpi.com/energies/energies-10-01168/article_deploy/html/images/energies-10-01168-g008.png" height=60 width =60></img><br>
 [6]Convolutional Neural Network<br><img src="https://i1.wp.com/www.michaelchimenti.com/wp-content/uploads/2017/11/Deep-Neural-Network-What-is-Deep-Learning-Edureka.png" height=60 width =60></img><br>
