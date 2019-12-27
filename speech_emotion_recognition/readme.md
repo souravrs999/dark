@@ -77,12 +77,12 @@ You can change or play with the code to increase the Accuracy
 path for the script can be changed inside the main.py script
 
 Mainly 6 methods have been used to classify the data
-[1]Random Forest Classifier
-[2]Decision Tree Classifier
-[3]Support Vector Machine
-[4]Multi Layer Perceptron
-[5]Long Short-term Memory
-[6]Convolutional Neural Network
+[1]Random Forest Classifier<br><img src="https://d1rwhvwstyk9gu.cloudfront.net/2019/03/Random-Forest-Algorithm.jpg" height=50 width =50></img>
+[2]Decision Tree Classifier<br><img src="https://www.all-ppt-templates.com/images/powerpoint-decision-tree-005.jpg" height=50 width =50></img>
+[3]Support Vector Machine<br>
+[4]Multi Layer Perceptron<br>
+[5]Long Short-term Memory<br>
+[6]Convolutional Neural Network<br>
 
 Options for running KFold cross validation and Data preprocessing has also been included in the menu
 
