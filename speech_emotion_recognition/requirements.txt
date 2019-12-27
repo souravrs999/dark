@@ -1,0 +1,7 @@
+librosa
+keras-tqdm
+numpy
+pandas
+sci-kit learn
+keras
+tensorflow
