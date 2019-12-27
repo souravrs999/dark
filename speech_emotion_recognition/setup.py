@@ -15,6 +15,6 @@ setup(
     license='MIT',
     install_requires=_get_requirements(),
     author='Sourav R S',
-    author_email='souravraveendran6@@gmail.com',
+    author_email='souravraveendran6@gmail.com',
     description='Tool to perform speech emotion recognition'
 )
