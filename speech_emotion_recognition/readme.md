@@ -1,15 +1,15 @@
 <snippet>
   <content><![CDATA[
-# ${1:SPEECH EMOTION RECOGNITION}
+# 1:SPEECH EMOTION RECOGNITION
 
 This is a tool built for recognising emotions from speech using different ML and DL algorithms, But mainly focuses on LSTM(Long Short Term Memory) and CNN (Convolutional Neural Network) for predictions
 
 ## Tools Used
 
-<a href="https://www.python.org/">python 3.7</a>
-<a href="https://github.com/librosa/librosa">Librosa</a> library for extracting the features
-<a href="https://keras.io/">Keras</a>
-<a href="https://scikit-learn.org/stable/index.html">Sci-kit learn</a>
+<a href="https://www.python.org/">python 3.7</a><br>
+<a href="https://github.com/librosa/librosa">Librosa</a> library for extracting the features<br>
+<a href="https://keras.io/">Keras</a><br>
+<a href="https://scikit-learn.org/stable/index.html">Sci-kit learn</a><br>
 
 ## Dataset
 
