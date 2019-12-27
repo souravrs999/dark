@@ -1,4 +1,5 @@
 # SPEECH EMOTION RECOGNITION
+<img src="https://1.bp.blogspot.com/-HF-5nI48uo4/T7Lzpvc0KmI/AAAAAAAAAxs/zdFVTSHqFkE/s1600/python-logo.png" height=50 width =50></img>
 
 This is a tool built for recognising emotions from speech using different ML and DL algorithms, But mainly focuses on LSTM(Long Short Term Memory) and CNN (Convolutional Neural Network) for predictions
 
@@ -87,10 +88,10 @@ Options for running KFold cross validation and Data preprocessing has also been 
 
 ## Credits
 
-https://github.com/xuanjihe/speech-emotion-recognition
-https://github.com/RayanWang/Speech_emotion_recognition_BLSTM
-https://github.com/harry-7/speech-emotion-recognition
-https://github.com/x4nth055/emotion-recognition-using-speech
+https://github.com/xuanjihe/speech-emotion-recognition<br>
+https://github.com/RayanWang/Speech_emotion_recognition_BLSTM<br>
+https://github.com/harry-7/speech-emotion-recognition<br>
+https://github.com/x4nth055/emotion-recognition-using-speech<br>
 
 ## License
 
